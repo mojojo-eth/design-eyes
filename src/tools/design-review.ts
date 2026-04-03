@@ -3,11 +3,12 @@ import { z } from "zod";
 import { captureWithPage } from "../utils/screenshot.js";
 import { extractDOMMetrics } from "../utils/dom-extractor.js";
 import { analyzeDesign, type DesignAnalysis } from "../rules/analyzer.js";
+import { compareAgainstReferences, formatComparison } from "../references/comparator.js";
 
 export function registerDesignReview(server: McpServer) {
   server.tool(
     "design_review",
-    "Screenshot your running app, extract DOM metrics (spacing, colors, contrast, typography, touch targets, alignment), analyze design quality with real measurements, and return a score with concrete fixes. The design linter for AI-coded UIs.",
+    "Screenshot your running app, extract DOM metrics (spacing, colors, contrast, typography, touch targets, alignment), analyze design quality with real measurements, benchmark against best-in-class SaaS (Linear, Vercel, Stripe, Notion, etc.), and return a score with concrete fixes.",
     {
       url: z
         .string()
@@ -22,14 +23,25 @@ export function registerDesignReview(server: McpServer) {
         .string()
         .optional()
         .describe("CSS selector to focus analysis on a specific section"),
+      benchmark: z
+        .boolean()
+        .default(true)
+        .describe("Compare against best-in-class SaaS reference database"),
     },
-    async ({ url, viewport, focus }) => {
+    async ({ url, viewport, focus, benchmark }) => {
       const { screenshot, page, browser } = await captureWithPage(url, viewport);
 
       try {
         const domMetrics = await extractDOMMetrics(page, focus);
         const analysis = await analyzeDesign(screenshot, domMetrics, { focus });
-        const output = formatReview(analysis);
+        let output = formatReview(analysis);
+
+        if (benchmark) {
+          const comparison = compareAgainstReferences(
+            domMetrics, analysis.score, analysis.slopScore, "landing"
+          );
+          output += "\n\n" + formatComparison(comparison);
+        }
 
         return {
           content: [

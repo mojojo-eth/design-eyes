@@ -1,0 +1,2117 @@
+[
+  {
+    "name": "Linear",
+    "url": "https://linear.app",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 69,
+        "totalValues": 985,
+        "topOffGrid": [
+          {
+            "value": 6,
+            "count": 55
+          },
+          {
+            "value": 5,
+            "count": 31
+          },
+          {
+            "value": 2,
+            "count": 30
+          },
+          {
+            "value": 22,
+            "count": 29
+          },
+          {
+            "value": 1,
+            "count": 23
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 7,
+        "hueBuckets": [
+          {
+            "hue": 210,
+            "count": 336,
+            "sample": "rgb(8, 9, 10)"
+          },
+          {
+            "hue": 120,
+            "count": 49,
+            "sample": "rgb(137, 209, 150)"
+          },
+          {
+            "hue": 300,
+            "count": 41,
+            "sample": "rgb(247, 156, 224)"
+          },
+          {
+            "hue": 0,
+            "count": 30,
+            "sample": "rgb(235, 87, 87)"
+          },
+          {
+            "hue": 180,
+            "count": 22,
+            "sample": "rgb(85, 205, 255)"
+          }
+        ],
+        "contrastFailures": 257,
+        "totalPairs": 599,
+        "hasGradients": true,
+        "gradientCount": 29
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 64,
+            "count": 3
+          },
+          {
+            "value": 40,
+            "count": 9
+          },
+          {
+            "value": 32,
+            "count": 2
+          },
+          {
+            "value": 20,
+            "count": 6
+          },
+          {
+            "value": 18,
+            "count": 16
+          },
+          {
+            "value": 17,
+            "count": 1
+          },
+          {
+            "value": 16,
+            "count": 8
+          },
+          {
+            "value": 15,
+            "count": 85
+          },
+          {
+            "value": 14,
+            "count": 194
+          },
+          {
+            "value": 13,
+            "count": 96
+          },
+          {
+            "value": 12,
+            "count": 139
+          },
+          {
+            "value": 11,
+            "count": 3
+          },
+          {
+            "value": 10,
+            "count": 37
+          }
+        ],
+        "families": [
+          {
+            "name": "Inter Variable",
+            "count": 412
+          },
+          {
+            "name": "Berkeley Mono",
+            "count": 187
+          }
+        ],
+        "weights": [
+          {
+            "value": 590,
+            "count": 18
+          },
+          {
+            "value": 510,
+            "count": 112
+          },
+          {
+            "value": 400,
+            "count": 465
+          },
+          {
+            "value": 300,
+            "count": 4
+          }
+        ],
+        "distinctTiers": 9
+      },
+      "touchTargets": {
+        "total": 152,
+        "undersized": 141
+      },
+      "alignment": {
+        "score": 90,
+        "columns": [
+          {
+            "x": 672,
+            "count": 36
+          },
+          {
+            "x": 10,
+            "count": 35
+          },
+          {
+            "x": 42,
+            "count": 27
+          },
+          {
+            "x": 20,
+            "count": 21
+          },
+          {
+            "x": 40,
+            "count": 19
+          }
+        ]
+      },
+      "meta": {
+        "title": "Linear – The system for product development",
+        "elementCount": 2385,
+        "framework": "unknown",
+        "hasDarkBackground": true
+      }
+    }
+  },
+  {
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 58,
+        "totalValues": 1389,
+        "topOffGrid": [
+          {
+            "value": 2,
+            "count": 282
+          },
+          {
+            "value": 6,
+            "count": 133
+          },
+          {
+            "value": 1,
+            "count": 53
+          },
+          {
+            "value": 10,
+            "count": 29
+          },
+          {
+            "value": 14,
+            "count": 24
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 5,
+        "hueBuckets": [
+          {
+            "hue": 210,
+            "count": 4,
+            "sample": "rgb(0, 114, 245)"
+          },
+          {
+            "hue": 330,
+            "count": 3,
+            "sample": "rgb(189, 40, 100)"
+          },
+          {
+            "hue": 120,
+            "count": 2,
+            "sample": "rgb(41, 122, 58)"
+          },
+          {
+            "hue": 270,
+            "count": 1,
+            "sample": "rgb(120, 32, 188)"
+          },
+          {
+            "hue": 180,
+            "count": 1,
+            "sample": "rgb(204, 230, 255)"
+          }
+        ],
+        "contrastFailures": 30,
+        "totalPairs": 327,
+        "hasGradients": true,
+        "gradientCount": 37
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 48,
+            "count": 15
+          },
+          {
+            "value": 40,
+            "count": 1
+          },
+          {
+            "value": 32,
+            "count": 5
+          },
+          {
+            "value": 24,
+            "count": 13
+          },
+          {
+            "value": 20,
+            "count": 1
+          },
+          {
+            "value": 18,
+            "count": 10
+          },
+          {
+            "value": 16,
+            "count": 48
+          },
+          {
+            "value": 14,
+            "count": 153
+          },
+          {
+            "value": 13,
+            "count": 15
+          },
+          {
+            "value": 12,
+            "count": 56
+          },
+          {
+            "value": 10,
+            "count": 1
+          },
+          {
+            "value": 8,
+            "count": 6
+          },
+          {
+            "value": 7,
+            "count": 2
+          },
+          {
+            "value": 6,
+            "count": 1
+          }
+        ],
+        "families": [
+          {
+            "name": "Geist",
+            "count": 270
+          },
+          {
+            "name": "Geist Mono",
+            "count": 57
+          }
+        ],
+        "weights": [
+          {
+            "value": 700,
+            "count": 2
+          },
+          {
+            "value": 600,
+            "count": 39
+          },
+          {
+            "value": 500,
+            "count": 104
+          },
+          {
+            "value": 400,
+            "count": 182
+          }
+        ],
+        "distinctTiers": 12
+      },
+      "touchTargets": {
+        "total": 146,
+        "undersized": 96
+      },
+      "alignment": {
+        "score": 93,
+        "columns": [
+          {
+            "x": 460,
+            "count": 59
+          },
+          {
+            "x": 102,
+            "count": 50
+          },
+          {
+            "x": 212,
+            "count": 45
+          },
+          {
+            "x": 150,
+            "count": 34
+          },
+          {
+            "x": 708,
+            "count": 30
+          }
+        ]
+      },
+      "meta": {
+        "title": "Vercel: Build and deploy the best web experiences with the AI Cloud",
+        "elementCount": 1625,
+        "framework": "unknown",
+        "hasDarkBackground": false
+      }
+    }
+  },
+  {
+    "name": "Raycast",
+    "url": "https://raycast.com",
+    "category": "landing",
+    "style": "bold",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 57,
+        "totalValues": 1970,
+        "topOffGrid": [
+          {
+            "value": 15,
+            "count": 637
+          },
+          {
+            "value": 10,
+            "count": 81
+          },
+          {
+            "value": 3,
+            "count": 30
+          },
+          {
+            "value": 50,
+            "count": 25
+          },
+          {
+            "value": 6,
+            "count": 15
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 4,
+        "hueBuckets": [
+          {
+            "hue": 210,
+            "count": 549,
+            "sample": "rgb(7, 8, 10)"
+          },
+          {
+            "hue": 330,
+            "count": 2,
+            "sample": "rgb(19, 13, 14)"
+          },
+          {
+            "hue": 0,
+            "count": 1,
+            "sample": "rgb(255, 99, 99)"
+          },
+          {
+            "hue": 180,
+            "count": 1,
+            "sample": "rgb(140, 214, 255)"
+          }
+        ],
+        "contrastFailures": 191,
+        "totalPairs": 708,
+        "hasGradients": true,
+        "gradientCount": 235
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 64,
+            "count": 1
+          },
+          {
+            "value": 56,
+            "count": 1
+          },
+          {
+            "value": 32,
+            "count": 202
+          },
+          {
+            "value": 24,
+            "count": 57
+          },
+          {
+            "value": 22,
+            "count": 2
+          },
+          {
+            "value": 20,
+            "count": 20
+          },
+          {
+            "value": 18,
+            "count": 21
+          },
+          {
+            "value": 16,
+            "count": 140
+          },
+          {
+            "value": 14,
+            "count": 138
+          },
+          {
+            "value": 13,
+            "count": 93
+          },
+          {
+            "value": 12,
+            "count": 18
+          },
+          {
+            "value": 11,
+            "count": 9
+          },
+          {
+            "value": 10,
+            "count": 6
+          }
+        ],
+        "families": [
+          {
+            "name": "Inter",
+            "count": 497
+          },
+          {
+            "name": "SF Pro Text",
+            "count": 188
+          },
+          {
+            "name": "GeistMono",
+            "count": 23
+          }
+        ],
+        "weights": [
+          {
+            "value": 700,
+            "count": 4
+          },
+          {
+            "value": 600,
+            "count": 122
+          },
+          {
+            "value": 500,
+            "count": 378
+          },
+          {
+            "value": 400,
+            "count": 198
+          },
+          {
+            "value": 300,
+            "count": 6
+          }
+        ],
+        "distinctTiers": 11
+      },
+      "touchTargets": {
+        "total": 152,
+        "undersized": 100
+      },
+      "alignment": {
+        "score": 75,
+        "columns": [
+          {
+            "x": 2642,
+            "count": 30
+          },
+          {
+            "x": 312,
+            "count": 24
+          },
+          {
+            "x": 3864,
+            "count": 23
+          },
+          {
+            "x": 38,
+            "count": 21
+          },
+          {
+            "x": 5048,
+            "count": 20
+          }
+        ]
+      },
+      "meta": {
+        "title": "Raycast - Your shortcut to everything",
+        "elementCount": 2481,
+        "framework": "unknown",
+        "hasDarkBackground": true
+      }
+    }
+  },
+  {
+    "name": "Notion",
+    "url": "https://notion.so",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 70,
+        "totalValues": 528,
+        "topOffGrid": [
+          {
+            "value": 6,
+            "count": 56
+          },
+          {
+            "value": 10,
+            "count": 22
+          },
+          {
+            "value": 5,
+            "count": 20
+          },
+          {
+            "value": 3,
+            "count": 18
+          },
+          {
+            "value": 14,
+            "count": 14
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 2,
+        "hueBuckets": [
+          {
+            "hue": 30,
+            "count": 27,
+            "sample": "rgb(246, 245, 244)"
+          },
+          {
+            "hue": 180,
+            "count": 13,
+            "sample": "rgb(0, 91, 171)"
+          }
+        ],
+        "contrastFailures": 0,
+        "totalPairs": 161,
+        "hasGradients": false,
+        "gradientCount": 0
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 64,
+            "count": 1
+          },
+          {
+            "value": 54,
+            "count": 5
+          },
+          {
+            "value": 42,
+            "count": 2
+          },
+          {
+            "value": 32,
+            "count": 2
+          },
+          {
+            "value": 26,
+            "count": 3
+          },
+          {
+            "value": 22,
+            "count": 5
+          },
+          {
+            "value": 20,
+            "count": 6
+          },
+          {
+            "value": 19,
+            "count": 4
+          },
+          {
+            "value": 16,
+            "count": 66
+          },
+          {
+            "value": 15,
+            "count": 27
+          },
+          {
+            "value": 14,
+            "count": 36
+          },
+          {
+            "value": 12,
+            "count": 4
+          }
+        ],
+        "families": [
+          {
+            "name": "NotionInter",
+            "count": 159
+          },
+          {
+            "name": "Lyon Text",
+            "count": 2
+          }
+        ],
+        "weights": [
+          {
+            "value": 700,
+            "count": 26
+          },
+          {
+            "value": 600,
+            "count": 43
+          },
+          {
+            "value": 500,
+            "count": 37
+          },
+          {
+            "value": 400,
+            "count": 55
+          }
+        ],
+        "distinctTiers": 10
+      },
+      "touchTargets": {
+        "total": 158,
+        "undersized": 101
+      },
+      "alignment": {
+        "score": 90,
+        "columns": [
+          {
+            "x": 94,
+            "count": 55
+          },
+          {
+            "x": 118,
+            "count": 31
+          },
+          {
+            "x": 146,
+            "count": 28
+          },
+          {
+            "x": 0,
+            "count": 18
+          },
+          {
+            "x": 138,
+            "count": 16
+          }
+        ]
+      },
+      "meta": {
+        "title": "The AI workspace that works for you. | Notion",
+        "elementCount": 702,
+        "framework": "Next.js",
+        "hasDarkBackground": false
+      }
+    }
+  },
+  {
+    "name": "Stripe",
+    "url": "https://stripe.com",
+    "category": "landing",
+    "style": "corporate",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 74,
+        "totalValues": 746,
+        "topOffGrid": [
+          {
+            "value": 6,
+            "count": 40
+          },
+          {
+            "value": 2,
+            "count": 38
+          },
+          {
+            "value": 10,
+            "count": 21
+          },
+          {
+            "value": 11,
+            "count": 19
+          },
+          {
+            "value": 14,
+            "count": 16
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 4,
+        "hueBuckets": [
+          {
+            "hue": 210,
+            "count": 501,
+            "sample": "rgb(6, 27, 49)"
+          },
+          {
+            "hue": 240,
+            "count": 51,
+            "sample": "rgb(83, 58, 253)"
+          },
+          {
+            "hue": 0,
+            "count": 16,
+            "sample": "rgb(255, 97, 24)"
+          },
+          {
+            "hue": 60,
+            "count": 1,
+            "sample": "rgb(129, 184, 26)"
+          }
+        ],
+        "contrastFailures": 25,
+        "totalPairs": 445,
+        "hasGradients": true,
+        "gradientCount": 24
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 56,
+            "count": 1
+          },
+          {
+            "value": 48,
+            "count": 8
+          },
+          {
+            "value": 44,
+            "count": 4
+          },
+          {
+            "value": 32,
+            "count": 11
+          },
+          {
+            "value": 26,
+            "count": 26
+          },
+          {
+            "value": 22,
+            "count": 20
+          },
+          {
+            "value": 18,
+            "count": 16
+          },
+          {
+            "value": 16,
+            "count": 182
+          },
+          {
+            "value": 15,
+            "count": 1
+          },
+          {
+            "value": 14,
+            "count": 38
+          },
+          {
+            "value": 12,
+            "count": 9
+          },
+          {
+            "value": 11,
+            "count": 5
+          },
+          {
+            "value": 10,
+            "count": 93
+          },
+          {
+            "value": 9,
+            "count": 19
+          },
+          {
+            "value": 8,
+            "count": 12
+          }
+        ],
+        "families": [
+          {
+            "name": "sohne-var",
+            "count": 445
+          }
+        ],
+        "weights": [
+          {
+            "value": 500,
+            "count": 2
+          },
+          {
+            "value": 400,
+            "count": 149
+          },
+          {
+            "value": 300,
+            "count": 294
+          }
+        ],
+        "distinctTiers": 12
+      },
+      "touchTargets": {
+        "total": 189,
+        "undersized": 151
+      },
+      "alignment": {
+        "score": 84,
+        "columns": [
+          {
+            "x": 34,
+            "count": 165
+          },
+          {
+            "x": 0,
+            "count": 24
+          },
+          {
+            "x": 648,
+            "count": 24
+          },
+          {
+            "x": 362,
+            "count": 23
+          },
+          {
+            "x": 108,
+            "count": 22
+          }
+        ]
+      },
+      "meta": {
+        "title": "Online-Bezahldienst und Zahlungsdienstleister | Stripe",
+        "elementCount": 1776,
+        "framework": "Next.js",
+        "hasDarkBackground": true
+      }
+    }
+  },
+  {
+    "name": "Arc",
+    "url": "https://arc.net",
+    "category": "landing",
+    "style": "bold",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 86,
+        "totalValues": 221,
+        "topOffGrid": [
+          {
+            "value": 10,
+            "count": 13
+          },
+          {
+            "value": 6,
+            "count": 5
+          },
+          {
+            "value": 3,
+            "count": 5
+          },
+          {
+            "value": 90,
+            "count": 1
+          },
+          {
+            "value": 37,
+            "count": 1
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 3,
+        "hueBuckets": [
+          {
+            "hue": 210,
+            "count": 53,
+            "sample": "rgb(49, 57, 251)"
+          },
+          {
+            "hue": 30,
+            "count": 41,
+            "sample": "rgb(255, 252, 236)"
+          },
+          {
+            "hue": 240,
+            "count": 3,
+            "sample": "rgb(39, 2, 194)"
+          }
+        ],
+        "contrastFailures": 0,
+        "totalPairs": 67,
+        "hasGradients": false,
+        "gradientCount": 0
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 46,
+            "count": 1
+          },
+          {
+            "value": 40,
+            "count": 4
+          },
+          {
+            "value": 36,
+            "count": 1
+          },
+          {
+            "value": 28,
+            "count": 6
+          },
+          {
+            "value": 24,
+            "count": 1
+          },
+          {
+            "value": 20,
+            "count": 1
+          },
+          {
+            "value": 17,
+            "count": 9
+          },
+          {
+            "value": 16,
+            "count": 16
+          },
+          {
+            "value": 14,
+            "count": 8
+          },
+          {
+            "value": 12,
+            "count": 20
+          }
+        ],
+        "families": [
+          {
+            "name": "Marlin Soft SQ",
+            "count": 32
+          },
+          {
+            "name": "InterVariable",
+            "count": 22
+          },
+          {
+            "name": "ABC Favorit Mono",
+            "count": 7
+          },
+          {
+            "name": "-apple-system",
+            "count": 3
+          },
+          {
+            "name": "ABC Oracle",
+            "count": 2
+          },
+          {
+            "name": "Exposure VAR",
+            "count": 1
+          }
+        ],
+        "weights": [
+          {
+            "value": 700,
+            "count": 39
+          },
+          {
+            "value": 600,
+            "count": 16
+          },
+          {
+            "value": 500,
+            "count": 9
+          },
+          {
+            "value": 400,
+            "count": 3
+          }
+        ],
+        "distinctTiers": 9
+      },
+      "touchTargets": {
+        "total": 48,
+        "undersized": 24
+      },
+      "alignment": {
+        "score": 66,
+        "columns": [
+          {
+            "x": 0,
+            "count": 31
+          },
+          {
+            "x": 362,
+            "count": 4
+          },
+          {
+            "x": 32,
+            "count": 3
+          },
+          {
+            "x": 384,
+            "count": 3
+          },
+          {
+            "x": 646,
+            "count": 3
+          }
+        ]
+      },
+      "meta": {
+        "title": "Arc from The Browser Company",
+        "elementCount": 278,
+        "framework": "Next.js",
+        "hasDarkBackground": false
+      }
+    }
+  },
+  {
+    "name": "Supabase",
+    "url": "https://supabase.com",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 85,
+        "totalValues": 1136,
+        "topOffGrid": [
+          {
+            "value": 1,
+            "count": 140
+          },
+          {
+            "value": 10,
+            "count": 23
+          },
+          {
+            "value": 6,
+            "count": 4
+          },
+          {
+            "value": 35,
+            "count": 2
+          },
+          {
+            "value": 173,
+            "count": 2
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 1,
+        "hueBuckets": [
+          {
+            "hue": 150,
+            "count": 9,
+            "sample": "rgb(62, 207, 142)"
+          }
+        ],
+        "contrastFailures": 0,
+        "totalPairs": 294,
+        "hasGradients": true,
+        "gradientCount": 38
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 72,
+            "count": 2
+          },
+          {
+            "value": 36,
+            "count": 11
+          },
+          {
+            "value": 24,
+            "count": 2
+          },
+          {
+            "value": 18,
+            "count": 8
+          },
+          {
+            "value": 16,
+            "count": 84
+          },
+          {
+            "value": 14,
+            "count": 165
+          },
+          {
+            "value": 12,
+            "count": 22
+          }
+        ],
+        "families": [
+          {
+            "name": "Circular",
+            "count": 293
+          },
+          {
+            "name": "Source Code Pro",
+            "count": 1
+          }
+        ],
+        "weights": [
+          {
+            "value": 500,
+            "count": 62
+          },
+          {
+            "value": 400,
+            "count": 232
+          }
+        ],
+        "distinctTiers": 7
+      },
+      "touchTargets": {
+        "total": 194,
+        "undersized": 102
+      },
+      "alignment": {
+        "score": 85,
+        "columns": [
+          {
+            "x": 80,
+            "count": 25
+          },
+          {
+            "x": 0,
+            "count": 21
+          },
+          {
+            "x": 82,
+            "count": 20
+          },
+          {
+            "x": 462,
+            "count": 14
+          },
+          {
+            "x": 842,
+            "count": 14
+          }
+        ]
+      },
+      "meta": {
+        "title": "Supabase | The Postgres Development Platform.",
+        "elementCount": 2031,
+        "framework": "Next.js",
+        "hasDarkBackground": true
+      }
+    }
+  },
+  {
+    "name": "Tailwind CSS",
+    "url": "https://tailwindcss.com",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 97,
+        "totalValues": 859,
+        "topOffGrid": [
+          {
+            "value": 2,
+            "count": 5
+          },
+          {
+            "value": 10,
+            "count": 5
+          },
+          {
+            "value": 6,
+            "count": 4
+          },
+          {
+            "value": 3,
+            "count": 4
+          },
+          {
+            "value": 1,
+            "count": 3
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 0,
+        "hueBuckets": [],
+        "contrastFailures": 387,
+        "totalPairs": 531,
+        "hasGradients": true,
+        "gradientCount": 22
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 96,
+            "count": 1
+          },
+          {
+            "value": 40,
+            "count": 5
+          },
+          {
+            "value": 36,
+            "count": 1
+          },
+          {
+            "value": 30,
+            "count": 4
+          },
+          {
+            "value": 24,
+            "count": 9
+          },
+          {
+            "value": 20,
+            "count": 3
+          },
+          {
+            "value": 18,
+            "count": 2
+          },
+          {
+            "value": 17,
+            "count": 4
+          },
+          {
+            "value": 16,
+            "count": 16
+          },
+          {
+            "value": 14,
+            "count": 75
+          },
+          {
+            "value": 13,
+            "count": 375
+          },
+          {
+            "value": 12,
+            "count": 36
+          }
+        ],
+        "families": [
+          {
+            "name": "plexMono",
+            "count": 410
+          },
+          {
+            "name": "inter",
+            "count": 121
+          }
+        ],
+        "weights": [
+          {
+            "value": 700,
+            "count": 1
+          },
+          {
+            "value": 600,
+            "count": 26
+          },
+          {
+            "value": 500,
+            "count": 43
+          },
+          {
+            "value": 400,
+            "count": 461
+          }
+        ],
+        "distinctTiers": 10
+      },
+      "touchTargets": {
+        "total": 106,
+        "undersized": 40
+      },
+      "alignment": {
+        "score": 96,
+        "columns": [
+          {
+            "x": 40,
+            "count": 86
+          },
+          {
+            "x": 566,
+            "count": 26
+          },
+          {
+            "x": 636,
+            "count": 24
+          },
+          {
+            "x": 706,
+            "count": 23
+          },
+          {
+            "x": 776,
+            "count": 23
+          }
+        ]
+      },
+      "meta": {
+        "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+        "elementCount": 2085,
+        "framework": "unknown",
+        "hasDarkBackground": true
+      }
+    }
+  },
+  {
+    "name": "Clerk",
+    "url": "https://clerk.com",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 81,
+        "totalValues": 733,
+        "topOffGrid": [
+          {
+            "value": 6,
+            "count": 50
+          },
+          {
+            "value": 10,
+            "count": 33
+          },
+          {
+            "value": 1,
+            "count": 13
+          },
+          {
+            "value": 30,
+            "count": 10
+          },
+          {
+            "value": 15,
+            "count": 7
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 4,
+        "hueBuckets": [
+          {
+            "hue": 240,
+            "count": 4,
+            "sample": "rgb(108, 71, 255)"
+          },
+          {
+            "hue": 0,
+            "count": 2,
+            "sample": "rgb(239, 68, 68)"
+          },
+          {
+            "hue": 210,
+            "count": 2,
+            "sample": "rgb(59, 130, 246)"
+          },
+          {
+            "hue": 180,
+            "count": 1,
+            "sample": "rgb(93, 227, 255)"
+          }
+        ],
+        "contrastFailures": 53,
+        "totalPairs": 244,
+        "hasGradients": true,
+        "gradientCount": 67
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 64,
+            "count": 1
+          },
+          {
+            "value": 32,
+            "count": 2
+          },
+          {
+            "value": 18,
+            "count": 1
+          },
+          {
+            "value": 17,
+            "count": 9
+          },
+          {
+            "value": 16,
+            "count": 1
+          },
+          {
+            "value": 15,
+            "count": 2
+          },
+          {
+            "value": 14,
+            "count": 2
+          },
+          {
+            "value": 13,
+            "count": 101
+          },
+          {
+            "value": 12,
+            "count": 42
+          },
+          {
+            "value": 11,
+            "count": 39
+          },
+          {
+            "value": 10,
+            "count": 42
+          },
+          {
+            "value": 9,
+            "count": 2
+          }
+        ],
+        "families": [
+          {
+            "name": "ui-sans-serif",
+            "count": 155
+          },
+          {
+            "name": "geistNumbers",
+            "count": 73
+          },
+          {
+            "name": "soehneMono",
+            "count": 16
+          }
+        ],
+        "weights": [
+          {
+            "value": 700,
+            "count": 12
+          },
+          {
+            "value": 600,
+            "count": 12
+          },
+          {
+            "value": 500,
+            "count": 130
+          },
+          {
+            "value": 450,
+            "count": 1
+          },
+          {
+            "value": 400,
+            "count": 89
+          }
+        ],
+        "distinctTiers": 7
+      },
+      "touchTargets": {
+        "total": 76,
+        "undersized": 64
+      },
+      "alignment": {
+        "score": 93,
+        "columns": [
+          {
+            "x": 1104,
+            "count": 58
+          },
+          {
+            "x": 728,
+            "count": 54
+          },
+          {
+            "x": 32,
+            "count": 40
+          },
+          {
+            "x": 760,
+            "count": 40
+          },
+          {
+            "x": 360,
+            "count": 36
+          }
+        ]
+      },
+      "meta": {
+        "title": "Clerk | Authentication and User Management",
+        "elementCount": 1913,
+        "framework": "unknown",
+        "hasDarkBackground": false
+      }
+    }
+  },
+  {
+    "name": "Planetscale",
+    "url": "https://planetscale.com",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 90,
+        "totalValues": 176,
+        "topOffGrid": [
+          {
+            "value": 10,
+            "count": 18
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 3,
+        "hueBuckets": [
+          {
+            "hue": 180,
+            "count": 29,
+            "sample": "rgb(11, 110, 197)"
+          },
+          {
+            "hue": 30,
+            "count": 1,
+            "sample": "rgb(242, 182, 0)"
+          },
+          {
+            "hue": 0,
+            "count": 1,
+            "sample": "rgb(243, 88, 21)"
+          }
+        ],
+        "contrastFailures": 16,
+        "totalPairs": 153,
+        "hasGradients": true,
+        "gradientCount": 6
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 16,
+            "count": 153
+          }
+        ],
+        "families": [
+          {
+            "name": "ui-monospace",
+            "count": 153
+          }
+        ],
+        "weights": [
+          {
+            "value": 700,
+            "count": 6
+          },
+          {
+            "value": 600,
+            "count": 20
+          },
+          {
+            "value": 500,
+            "count": 2
+          },
+          {
+            "value": 400,
+            "count": 125
+          }
+        ],
+        "distinctTiers": 1
+      },
+      "touchTargets": {
+        "total": 85,
+        "undersized": 73
+      },
+      "alignment": {
+        "score": 91,
+        "columns": [
+          {
+            "x": 96,
+            "count": 47
+          },
+          {
+            "x": 128,
+            "count": 20
+          },
+          {
+            "x": 966,
+            "count": 7
+          },
+          {
+            "x": 0,
+            "count": 5
+          },
+          {
+            "x": 314,
+            "count": 5
+          }
+        ]
+      },
+      "meta": {
+        "title": "PlanetScale - the world’s fastest and most scalable cloud hosting for Vitess and Postgres",
+        "elementCount": 313,
+        "framework": "Remix",
+        "hasDarkBackground": true
+      }
+    }
+  },
+  {
+    "name": "Cal.com",
+    "url": "https://cal.com",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 63,
+        "totalValues": 1409,
+        "topOffGrid": [
+          {
+            "value": 10,
+            "count": 304
+          },
+          {
+            "value": 2,
+            "count": 174
+          },
+          {
+            "value": 6,
+            "count": 42
+          },
+          {
+            "value": 3,
+            "count": 5
+          },
+          {
+            "value": 5,
+            "count": 1
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 5,
+        "hueBuckets": [
+          {
+            "hue": 210,
+            "count": 57,
+            "sample": "rgb(55, 65, 81)"
+          },
+          {
+            "hue": 180,
+            "count": 6,
+            "sample": "rgb(2, 97, 162)"
+          },
+          {
+            "hue": 270,
+            "count": 4,
+            "sample": "rgb(120, 38, 177)"
+          },
+          {
+            "hue": 330,
+            "count": 4,
+            "sample": "rgb(136, 44, 47)"
+          },
+          {
+            "hue": 240,
+            "count": 4,
+            "sample": "rgb(233, 221, 253)"
+          }
+        ],
+        "contrastFailures": 111,
+        "totalPairs": 302,
+        "hasGradients": true,
+        "gradientCount": 15
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 64,
+            "count": 1
+          },
+          {
+            "value": 48,
+            "count": 7
+          },
+          {
+            "value": 24,
+            "count": 7
+          },
+          {
+            "value": 20,
+            "count": 4
+          },
+          {
+            "value": 18,
+            "count": 7
+          },
+          {
+            "value": 16,
+            "count": 84
+          },
+          {
+            "value": 14,
+            "count": 140
+          },
+          {
+            "value": 12,
+            "count": 28
+          },
+          {
+            "value": 10,
+            "count": 19
+          },
+          {
+            "value": 8,
+            "count": 5
+          }
+        ],
+        "families": [
+          {
+            "name": "Cal Sans UI Variable Light",
+            "count": 160
+          },
+          {
+            "name": "Inter",
+            "count": 68
+          },
+          {
+            "name": "Matter Regular",
+            "count": 27
+          },
+          {
+            "name": "Cal Sans",
+            "count": 25
+          },
+          {
+            "name": "Matter SemiBold",
+            "count": 8
+          },
+          {
+            "name": "Matter Medium",
+            "count": 7
+          },
+          {
+            "name": "Roboto Mono",
+            "count": 3
+          },
+          {
+            "name": "Cal Sans UI Medium",
+            "count": 2
+          },
+          {
+            "name": "sans-serif",
+            "count": 1
+          },
+          {
+            "name": "CUSTOMV2;Cal Sans UI Regular",
+            "count": 1
+          }
+        ],
+        "weights": [
+          {
+            "value": 600,
+            "count": 29
+          },
+          {
+            "value": 500,
+            "count": 63
+          },
+          {
+            "value": 400,
+            "count": 50
+          },
+          {
+            "value": 300,
+            "count": 160
+          }
+        ],
+        "distinctTiers": 10
+      },
+      "touchTargets": {
+        "total": 99,
+        "undersized": 91
+      },
+      "alignment": {
+        "score": 96,
+        "columns": [
+          {
+            "x": 116,
+            "count": 43
+          },
+          {
+            "x": 160,
+            "count": 27
+          },
+          {
+            "x": 140,
+            "count": 22
+          },
+          {
+            "x": 966,
+            "count": 20
+          },
+          {
+            "x": 52,
+            "count": 15
+          }
+        ]
+      },
+      "meta": {
+        "title": "Cal.com | Open Scheduling Infrastructure",
+        "elementCount": 2469,
+        "framework": "unknown",
+        "hasDarkBackground": false
+      }
+    }
+  },
+  {
+    "name": "Dub",
+    "url": "https://dub.co",
+    "category": "landing",
+    "style": "minimal",
+    "scannedAt": "2026-04-03",
+    "metrics": {
+      "spacing": {
+        "gridCompliance": 63,
+        "totalValues": 2074,
+        "topOffGrid": [
+          {
+            "value": 6,
+            "count": 381
+          },
+          {
+            "value": 2,
+            "count": 209
+          },
+          {
+            "value": 1,
+            "count": 82
+          },
+          {
+            "value": 10,
+            "count": 45
+          },
+          {
+            "value": 14,
+            "count": 19
+          }
+        ]
+      },
+      "colors": {
+        "uniqueHues": 4,
+        "hueBuckets": [
+          {
+            "hue": 210,
+            "count": 123,
+            "sample": "rgb(37, 99, 235)"
+          },
+          {
+            "hue": 120,
+            "count": 101,
+            "sample": "rgb(22, 163, 74)"
+          },
+          {
+            "hue": 0,
+            "count": 47,
+            "sample": "rgb(220, 38, 38)"
+          },
+          {
+            "hue": 240,
+            "count": 14,
+            "sample": "rgb(124, 58, 237)"
+          }
+        ],
+        "contrastFailures": 25,
+        "totalPairs": 674,
+        "hasGradients": true,
+        "gradientCount": 32
+      },
+      "typography": {
+        "sizes": [
+          {
+            "value": 48,
+            "count": 5
+          },
+          {
+            "value": 40,
+            "count": 1
+          },
+          {
+            "value": 36,
+            "count": 1
+          },
+          {
+            "value": 30,
+            "count": 4
+          },
+          {
+            "value": 24,
+            "count": 6
+          },
+          {
+            "value": 20,
+            "count": 1
+          },
+          {
+            "value": 18,
+            "count": 6
+          },
+          {
+            "value": 16,
+            "count": 6
+          },
+          {
+            "value": 14,
+            "count": 259
+          },
+          {
+            "value": 13,
+            "count": 1
+          },
+          {
+            "value": 12,
+            "count": 67
+          },
+          {
+            "value": 11,
+            "count": 52
+          },
+          {
+            "value": 10,
+            "count": 241
+          },
+          {
+            "value": 9,
+            "count": 1
+          },
+          {
+            "value": 8,
+            "count": 20
+          },
+          {
+            "value": 7,
+            "count": 3
+          }
+        ],
+        "families": [
+          {
+            "name": "Inter",
+            "count": 526
+          },
+          {
+            "name": "GeistMono",
+            "count": 140
+          },
+          {
+            "name": "satoshi",
+            "count": 7
+          },
+          {
+            "name": "ui-sans-serif",
+            "count": 1
+          }
+        ],
+        "weights": [
+          {
+            "value": 600,
+            "count": 125
+          },
+          {
+            "value": 500,
+            "count": 224
+          },
+          {
+            "value": 400,
+            "count": 325
+          }
+        ],
+        "distinctTiers": 12
+      },
+      "touchTargets": {
+        "total": 172,
+        "undersized": 118
+      },
+      "alignment": {
+        "score": 91,
+        "columns": [
+          {
+            "x": 860,
+            "count": 73
+          },
+          {
+            "x": 448,
+            "count": 59
+          },
+          {
+            "x": 102,
+            "count": 28
+          },
+          {
+            "x": 892,
+            "count": 23
+          },
+          {
+            "x": 640,
+            "count": 20
+          }
+        ]
+      },
+      "meta": {
+        "title": "Dub - The Modern Link Attribution Platform",
+        "elementCount": 4183,
+        "framework": "unknown",
+        "hasDarkBackground": false
+      }
+    }
+  }
+]
