@@ -1,0 +1,50 @@
+{
+  "name": "design-eyes",
+  "version": "0.1.0",
+  "description": "The design linter for AI-coded UIs. Screenshot, critique, fix — automatically.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "design-eyes": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "lint": "eslint src/",
+    "test": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "design",
+    "ui",
+    "ux",
+    "linter",
+    "claude-code",
+    "ai-slop",
+    "design-review",
+    "accessibility",
+    "wcag"
+  ],
+  "author": "mojojo-eth",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "playwright": "^1.52.0",
+    "sharp": "^0.33.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0",
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mojojo-eth/design-eyes"
+  }
+}
