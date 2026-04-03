@@ -1,4 +1,4 @@
-import { chromium } from "playwright";
+import { chromium, type Browser, type Page } from "playwright";
 
 export interface Screenshot {
   base64: string;
@@ -7,15 +7,21 @@ export interface Screenshot {
   viewport: string;
 }
 
+export interface CaptureResult {
+  screenshot: Screenshot;
+  page: Page;
+  browser: Browser;
+}
+
 const VIEWPORTS = {
   mobile: { width: 375, height: 812 },
   desktop: { width: 1280, height: 800 },
 };
 
-export async function captureScreenshot(
+export async function captureWithPage(
   url: string,
   viewport: "mobile" | "desktop" | "both"
-): Promise<Screenshot> {
+): Promise<CaptureResult> {
   const vp = VIEWPORTS[viewport === "both" ? "desktop" : viewport];
 
   const browser = await chromium.launch({ headless: true });
@@ -23,22 +29,29 @@ export async function captureScreenshot(
     viewport: { width: vp.width, height: vp.height },
   });
 
-  try {
-    await page.goto(url, { waitUntil: "networkidle", timeout: 10000 });
+  await page.goto(url, { waitUntil: "networkidle", timeout: 10000 });
+  await page.waitForTimeout(1000);
 
-    // Wait a bit for animations/transitions to settle
-    await page.waitForTimeout(1000);
+  const buffer = await page.screenshot({ fullPage: true });
+  const base64 = buffer.toString("base64");
 
-    const buffer = await page.screenshot({ fullPage: true });
-    const base64 = buffer.toString("base64");
-
-    return {
+  return {
+    screenshot: {
       base64,
       width: vp.width,
       height: vp.height,
       viewport: `${vp.width}x${vp.height}`,
-    };
-  } finally {
-    await browser.close();
-  }
+    },
+    page,
+    browser,
+  };
+}
+
+export async function captureScreenshot(
+  url: string,
+  viewport: "mobile" | "desktop" | "both"
+): Promise<Screenshot> {
+  const result = await captureWithPage(url, viewport);
+  await result.browser.close();
+  return result.screenshot;
 }

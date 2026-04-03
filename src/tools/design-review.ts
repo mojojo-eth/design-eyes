@@ -1,12 +1,13 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-import { captureScreenshot } from "../utils/screenshot.js";
-import { analyzeDesign } from "../rules/analyzer.js";
+import { captureWithPage } from "../utils/screenshot.js";
+import { extractDOMMetrics } from "../utils/dom-extractor.js";
+import { analyzeDesign, type DesignAnalysis } from "../rules/analyzer.js";
 
 export function registerDesignReview(server: McpServer) {
   server.tool(
     "design_review",
-    "Screenshot your running app, analyze its design quality, and return a score with concrete fixes. The design linter for AI-coded UIs.",
+    "Screenshot your running app, extract DOM metrics (spacing, colors, contrast, typography, touch targets, alignment), analyze design quality with real measurements, and return a score with concrete fixes. The design linter for AI-coded UIs.",
     {
       url: z
         .string()
@@ -23,40 +24,50 @@ export function registerDesignReview(server: McpServer) {
         .describe("CSS selector to focus analysis on a specific section"),
     },
     async ({ url, viewport, focus }) => {
-      // 1. Screenshot
-      const screenshot = await captureScreenshot(url, viewport);
+      const { screenshot, page, browser } = await captureWithPage(url, viewport);
 
-      // 2. Analyze
-      const analysis = await analyzeDesign(screenshot, { focus });
+      try {
+        const domMetrics = await extractDOMMetrics(page, focus);
+        const analysis = await analyzeDesign(screenshot, domMetrics, { focus });
+        const output = formatReview(analysis);
 
-      // 3. Format output
-      const output = formatReview(analysis);
-
-      return {
-        content: [
-          {
-            type: "image" as const,
-            data: screenshot.base64,
-            mimeType: "image/png" as const,
-          },
-          {
-            type: "text" as const,
-            text: output,
-          },
-        ],
-      };
+        return {
+          content: [
+            {
+              type: "image" as const,
+              data: screenshot.base64,
+              mimeType: "image/png" as const,
+            },
+            {
+              type: "text" as const,
+              text: output,
+            },
+          ],
+        };
+      } finally {
+        await browser.close();
+      }
     }
   );
 }
 
 function formatReview(analysis: DesignAnalysis): string {
   const lines: string[] = [];
+  const m = analysis.metrics;
 
-  lines.push(`📸 Screenshot captured (${analysis.viewport})`);
-  lines.push(`Screen type: ${analysis.screenType}`);
-  lines.push(`Framework: ${analysis.detectedFramework}`);
+  lines.push(`Screenshot captured (${analysis.viewport})`);
+  lines.push(`Screen type: ${analysis.screenType} | Framework: ${analysis.detectedFramework}`);
   lines.push("");
-  lines.push(`── Score: ${analysis.score}/10 ──`);
+  lines.push(`-- Score: ${analysis.score}/10 --`);
+  lines.push("");
+  lines.push("METRICS:");
+  lines.push(`  Spacing grid compliance:  ${m.spacingGridCompliance}%`);
+  lines.push(`  Contrast pass rate:       ${m.contrastPassRate}%`);
+  lines.push(`  Touch target pass rate:   ${m.touchTargetPassRate}%`);
+  lines.push(`  Alignment score:          ${m.alignmentScore}%`);
+  lines.push(`  Typography tiers:         ${m.typographyTiers}`);
+  lines.push(`  Unique hue groups:        ${m.uniqueHues}`);
+  lines.push(`  Font families:            ${m.fontFamilies}`);
   lines.push("");
 
   // Critical issues
@@ -103,26 +114,8 @@ function formatReview(analysis: DesignAnalysis): string {
   }
 
   lines.push("");
-  lines.push('→ Say "fix all" to apply all fixes automatically');
-  lines.push('→ Say "fix critical" for critical fixes only');
-  lines.push('→ Say "show references" for best-in-class examples');
-  lines.push('→ Say "show alternatives" for design variations');
+  lines.push('Say "fix all" to apply all fixes automatically');
+  lines.push('Say "fix critical" for critical fixes only');
 
   return lines.join("\n");
-}
-
-interface DesignIssue {
-  severity: "critical" | "major" | "minor";
-  category: "spacing" | "hierarchy" | "colors" | "typography" | "layout" | "accessibility" | "slop";
-  description: string;
-  fix: string;
-}
-
-interface DesignAnalysis {
-  viewport: string;
-  screenType: string;
-  detectedFramework: string;
-  score: number;
-  slopScore: number;
-  issues: DesignIssue[];
 }
